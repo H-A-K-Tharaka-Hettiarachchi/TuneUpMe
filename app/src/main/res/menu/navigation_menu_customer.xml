@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_menu_fav_bands"
+        android:title="@string/favourite_bands"
+        android:icon="@drawable/ic_menu_fav"
+        />
+    <item
+        android:id="@+id/nav_menu_booking_history"
+        android:title="@string/booking_history"
+        android:icon="@drawable/ic_menu_order_history"
+        />
+    <item
+        android:id="@+id/nav_menu_messenger"
+        android:title="@string/tune_up_me_messenger"
+        android:icon="@drawable/ic_menu_messages"
+        />
+    <item
+        android:id="@+id/nav_menu_request_band_partnership"
+        android:title="@string/request_tune_up_me_band_partnership"
+        android:icon="@drawable/ic_menu_req_query"
+        />
+    <item
+        android:id="@+id/nav_menu_profile"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_menu_profile"
+        />
+
+</group>
+</menu>

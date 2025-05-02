@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".TuneUpMeApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TuneUpMe"
+        tools:targetApi="31">
+
+        <service
+            android:name=".listeners.FlipService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse"
+            tools:ignore="ForegroundServicePermission" />
+
+
+
+        <activity
+            android:name=".TuneUpMeActivityBandMySchedule"
+            android:exported="false" />
+        <activity
+            android:name=".TuneUpMeActivityLocationViewer"
+            android:exported="false" />
+        <activity
+            android:name=".TuneUpMeActivityBandBookingRequest"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".TuneUpMeActivityBandProfile"
+            android:exported="false" />
+        <activity
+            android:name=".TuneUpMeActivityMusicBandHome"
+            android:exported="false" />
+        <activity
+            android:name=".TuneUpMeCustomerActivityBookingHistory"
+            android:exported="false" />
+        <activity
+            android:name=".TuneUpMeCustomerActivityRequestedBandPartnerships"
+            android:exported="false" />
+        <activity
+            android:name=".TuneUpMeCustomerActivityRequestBandPartnership"
+            android:exported="false" />
+        <activity
+            android:name=".TuneUpMeActivityLocationPicker"
+            android:exported="true" />
+        <activity
+            android:name=".TuneUpMeActivityCurrentSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".TuneUpMeActivityCustomerBandBookNow"
+            android:exported="true" />
+        <activity
+            android:name=".TuneUpMeCustomerActivitySingleBandView"
+            android:exported="true" />
+        <activity
+            android:name=".TuneUpMeActivityCustomerBandSearch"
+            android:exported="false" />
+        <activity
+            android:name=".TuneUpMeActivityCustomerHome"
+            android:exported="true" />
+        <activity
+            android:name=".TuneUpMeActivityFavouriteBands"
+            android:exported="true" />
+        <activity
+            android:name=".TuneUpMeActivityMessenger"
+            android:exported="true" />
+        <activity
+            android:name=".TuneUpMeActivityChat"
+            android:exported="true" />
+        <activity
+            android:name=".TuneUpMeActivityCustomerProfile"
+            android:exported="true" />
+        <activity
+            android:name=".TuneUpMeActivityNetworkNotAvailable"
+            android:exported="true" />
+        <activity
+            android:name=".TuneUpMeActivityTermsConditions"
+            android:exported="false" />
+        <activity
+            android:name=".LogAsCustomerActivitySignUp"
+            android:exported="true" />
+        <activity
+            android:name=".LogAsCustomerActivityVerifyEmail"
+            android:exported="false" />
+        <activity
+            android:name=".LogAsMusicBandActivityVerifyEmail"
+            android:exported="false" />
+        <activity
+            android:name=".LogAsCustomerActivityResetPasswordVerifyEmail"
+            android:exported="false" />
+        <activity
+            android:name=".LogAsCustomerActivityResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".LogAsCustomerActivityForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".LogAsCustomerActivitySignInWithPassword"
+            android:exported="false" />
+        <activity
+            android:name=".LogAsMusicBandActivityEnterEmail"
+            android:exported="false" />
+        <activity
+            android:name=".LogAsCustomerActivityEnterEmail"
+            android:exported="true" />
+        <activity
+            android:name=".SelectCustomerTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GetStartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <receiver
+            android:name=".listeners.NetworkChangeReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

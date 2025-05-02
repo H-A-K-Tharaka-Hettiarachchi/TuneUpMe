@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#0530F2</color>
+    <color name="vibrant_red">#F0073A</color>
+    <color name="vibrant_pinkish_red">#DB3B5E</color>
+    <color name="light_gray">#F0F0FA</color>
+    <color name="dark_grayish_green">#394444</color>
+    <color name="gray">#B0B0B0</color>
+
+    <color name="get_start_gradiant_center_color">#F0073A</color>
+    <color name="get_start_gradiant_start_color">#FFFFFF</color>
+    <color name="get_start_gradiant_end_color">#DB3B5E</color>
+</resources>

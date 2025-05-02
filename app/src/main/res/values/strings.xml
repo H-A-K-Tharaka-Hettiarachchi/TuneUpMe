@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">TuneUpMe</string>
+
+    <string name="google_maps_key">AIzaSyDkVQDmXW2lgpiHtNsop7O-6jnccFEftNQ</string>
+    <string name="ngrock_url">https://9578-111-223-181-202.ngrok-free.app</string>
+
+    /************************************************************* Sign In Start
+    *************************************************************/
+    <string name="get_start_button">Let\'s Go!</string>
+    <string name="tune_up_me_network_not_available_text1">Oops !</string>
+    <string name="tune_up_me_network_not_available_text2">Network Not Available, Please Check Your Internet Connection.</string>
+
+    <string name="log_as_customer_button">Log As Customer</string>
+    <string name="log_as_band_button">Log As Music Band</string>
+
+    /************************************************************* Sign In End
+    *************************************************************/
+
+
+    /************************************************************* Customer Start
+    *************************************************************/
+
+    /*************************************************** Hint Start
+    ***************************************************/
+
+    <string name="customer_full_name_hint">Full Name</string>
+    <string name="customer_email_hint">Email</string>
+    <string name="customer_mobile_hint">Mobile</string>
+    <string name="customer_password_hint">Password</string>
+    <string name="customer_confirm_password_hint">Confirm Password</string>
+    <string name="tune_up_me_messenger_search_bar_hint">Search...</string>
+
+    <string name="request_band_partnership_band_email_hint">Email</string>
+    <string name="request_band_partnership_enter_band_name_hint">Band Name</string>
+    <string name="request_band_partnership_band_mobile_hint">Band Mobile</string>
+    /*************************************************** Hint End
+    ***************************************************/
+
+    <string name="log_as_customer_title">What is your email address?</string>
+    <string name="log_as_customer_sub_title">we\'ll send a verification code to your email</string>
+    <string name="log_as_customer_email_input_layout_hint">Enter your email</string>
+    <string name="log_as_customer_sign_in_with_password_button">Sign In With Password</string>
+    <string name="log_as_customer_signup_button">Sign Up Now</string>
+    <string name="log_as_customer_get_code_button">Send Code</string>
+
+    <string name="log_as_customer_sign_in_with_password_title">Enter your password</string>
+    <string name="log_as_customer_sign_in_with_password_input_layout_hint">Enter your password</string>
+    <string name="log_as_customer_sign_in_with_password_forgot_button">Forgot Password?</string>
+    <string name="log_as_customer_sign_in_with_password_sign_in_button">Sign In</string>
+
+    <string name="log_as_customer_forgot_password_title">Enter your Email</string>
+    <string name="log_as_customer_forgot_password_sub_title">we\'ll send a verification code to your email - verify your email to reset password</string>
+    <string name="log_as_customer_forgot_password_email_input_layout_hint">Enter your email</string>
+    <string name="log_as_customer_forgot_password_reset_password_button">Send Code</string>
+
+    <string name="log_as_customer_verify_email_title">Enter your OTP (One Time Password)</string>
+    <string name="log_as_customer_verify_email_sub_title">Your OTP (One Time Password) has sent to your email</string>
+    <string name="log_as_customer_verify_email_re_send_code_button">Re - Send Code</string>
+    <string name="log_as_customer_verify_email_verify_email_button">Verify Email</string>
+
+    <string name="log_as_customer_reset_password_title">Enter your new password</string>
+    <string name="log_as_customer_reset_password_new_password_input_layout_hint">Enter your new password</string>
+    <string name="log_as_customer_reset_password_confirm_password_input_layout_hint">Confirm your password</string>
+    <string name="log_as_customer_reset_password_save_password_button">Reset Password</string>
+
+    <string name="log_as_customer_sign_up_title">Create Your Free Account ✨</string>
+    <string name="log_as_customer_sign_up_sub_title">Welcome to TuneMeUp! Please Enter Your Details.</string>
+    <string name="log_as_customer_sign_up_sub_text">Already have account?</string>
+    <string name="log_as_customer_sign_up_sign_in_button">Sign In Now</string>
+    <string name="log_as_customer_sign_up_signup_button">Sign Up</string>
+    <string name="log_as_customer_sign_up_terms_and_condition_button">Terms and Conditions</string>
+
+
+    <string name="customer_profile_edit_button">Edit</string>
+    <string name="customer_profile_save_button">Save</string>
+
+    <string name="customer_home_item_view_details_button">View Details</string>
+    <string name="customer_home_item_book_now_button">Book Now</string>
+
+    <string name="customer_single_item_view_about_us_text">About Us</string>
+    <string name="customer_single_item_view_about_us_description">We are Sarith Surith and The News,
+        a Sri Lankan acoustic band that brings soulful melodies, heartfelt lyrics, and rich harmonies to life.
+        With a deep passion for music, we blend traditional Sri Lankan influences with modern acoustic sounds,
+        creating an unforgettable experience for our listeners. From intimate unplugged performances to grand stages,
+        we strive to connect with audiences through our unique storytelling and soothing arrangements. Whether it\'s classic hits,
+        original compositions, or refreshing acoustic renditions, our music is crafted to touch hearts and bring people together.
+        Join us on this musical journey, feel the rhythm, and immerse yourself in the sound of Sarith Surith and The News!
+    </string>
+    <string name="customer_single_item_view_call_now_text">Call Now</string>
+    <string name="customer_single_item_view_chat_now_text">Chat Now</string>
+    <string name="customer_single_item_view_book_now_button">Book Now</string>
+    <string name="customer_single_item_view_review_rating_text">Review &amp; Rating</string>
+
+    <string name="customer_band_booking_request_current_schedule_text">Current Schedule :</string>
+    <string name="customer_band_booking_request_pick_location_text">Pick Event Location :</string>
+    <string name="customer_band_booking_request_pick_date_text">Pick Event Date :</string>
+    <string name="customer_band_booking_request_pick_start_time_text">Pick Event Start Time :</string>
+    <string name="customer_band_booking_request_pick_time_duration_text">Pick Event Time Duration :</string>
+
+
+    <string name="customer_band_current_band_schedule_event_start_date_time_text">Event Start Date&amp;Time :</string>
+    <string name="customer_band_current_band_schedule_event_end_date_time_text">Event End Date&amp;Time :</string>
+    <string name="customer_band_current_band_schedule_event_booking_status_text">Booking Status :</string>
+
+    <string name="request_tune_up_me_band_partnership">Request TuneUpMe Band Partnership</string>
+    <string name="tune_up_me_messenger">TuneUpMe Messenger</string>
+    <string name="favourite_bands">Favourite Bands</string>
+    <string name="booking_history">Booking History</string>
+    <string name="profile">Profile</string>
+
+
+    <string name="request_band_partnership_select_band_type_text_idea">The band type you choose (e.g., three-piece, one-man, full band, or other) will define your band\'s profile.</string>
+    <string name="request_band_partnership_select_band_type_text">Select Your Band Type</string>
+    <string name="request_band_partnership_enter_band_email_text">Enter Your Band Email</string>
+    <string name="request_band_partnership_enter_band_email_text_idea">The email you provide serves as your login for the account, and we will send a verification code to this email for login and account verification.</string>
+    <string name="request_band_partnership_enter_band_name_text">Enter Band Name</string>
+    <string name="request_band_partnership_enter_band_mobile_text">Enter Band Mobile</string>
+    <string name="request_band_partnership_enter_band_name_idea">The band name you provide will be used to identify your group and will appear on your profile.</string>
+    <string name="request_band_partnership_enter_band_mobile_idea">The mobile number you provide will be used for communication related to your band’s bookings and inquiries.</string>
+
+
+    <string name="send_request_button">Send Request</string>
+    <string name="requested_band_partnership_item_band_type_text">Band Type :</string>
+    <string name="requested_band_partnership_item_email_text">Email :</string>
+    <string name="requested_band_partnership_item_mobile_text">Mobile :</string>
+    <string name="requested_band_partnership_item_request_status_text">Request Status :</string>
+
+
+    <string name="customer_band_booking_history_event_start_date_time_text">Event Start Date&amp;Time :</string>
+    <string name="customer_band_booking_history_event_end_date_time_text">Event End Date&amp;Time :</string>
+    <string name="customer_band_booking_history_event_booking_status_text">Booking Status :</string>
+
+    /************************************************************* Customer End
+    *************************************************************/
+
+
+    /************************************************************* Music Band Start
+    *************************************************************/
+
+    <string name="log_as_music_band_title">Enter your email address</string>
+    <string name="log_as_music_band_sub_title">we\'ll send a verification code to your email</string>
+    <string name="log_as_music_band_email_input_layout_hint">Enter your email</string>
+    <string name="log_as_music_band_get_code_button">Send Code</string>
+
+
+    <string name="log_as_music_band_verify_email_title">Enter your OTP (One Time Password)</string>
+    <string name="log_as_music_band_verify_email_sub_title">Your OTP (One Time Password) has sent to your email</string>
+    <string name="log_as_music_band_verify_email_verify_email_button">Sign In</string>
+    <string name="title_activity_music_band_home">MusicBandActivityHome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="customer_booking_history_pay_charges">Pay Charges</string>
+    <string name="log_as_music_band_verify_email_re_send_code_button">Re - Send Code</string>
+
+    <string name="tune_up_me_booking_request">Booking Request</string>
+
+    <string name="save_band_profile_button">Save</string>
+
+    <string name="band_booking_request_item_customer_email">Customer Email :</string>
+    <string name="band_booking_request_item_customer_mobile">Customer Mobile :</string>
+    <string name="band_booking_request_item_event_start_date_time">Event Start Date Time :</string>
+    <string name="band_booking_request_item_event_end_date_time">Event End Date Time :</string>
+    <string name="band_booking_request_accept_button">Accept</string>
+    <string name="band_booking_request_decline_button">Decline</string>
+    <string name="band_booking_request_item_call_now_button">Call Now</string>
+    <string name="band_booking_request_item_message_now_button">Message Now</string>
+
+
+    <string name="band_my_schedule_item_customer_email">Customer Email :</string>
+    <string name="band_my_schedule_item_customer_mobile">Customer Mobile :</string>
+    <string name="band_my_schedule_item_event_start_date_time">Event Start Date Time :</string>
+    <string name="band_my_schedule_item_event_end_date_time">Event End Date Time :</string>
+    <string name="band_my_schedule_item_call_now_button">Call Now</string>
+    <string name="band_my_schedule_item_message_now_button">Message Now</string>
+    <string name="band_my_schedule_item_payment_status">Payment Status :</string>
+    <string name="tune_up_me_my_schedule">My Schedule</string>
+
+
+    /************************************************************* Music Band End
+    *************************************************************/
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu_my_schedule"
+            android:title="@string/tune_up_me_my_schedule"
+            android:icon="@drawable/ic_menu_schedule"
+            />
+        <item
+            android:id="@+id/nav_menu_messenger"
+            android:title="@string/tune_up_me_messenger"
+            android:icon="@drawable/ic_menu_messages"
+            />
+        <item
+            android:id="@+id/nav_menu_booking_request"
+            android:title="@string/tune_up_me_booking_request"
+            android:icon="@drawable/ic_menu_req_query"
+            />
+        <item
+            android:id="@+id/nav_menu_profile"
+            android:title="@string/profile"
+            android:icon="@drawable/ic_menu_profile"
+            />
+
+    </group>
+</menu>

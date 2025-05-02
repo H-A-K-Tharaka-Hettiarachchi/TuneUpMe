@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewCustomerHomeItemProfile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewCustomerHomeItemProfilePicture"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="80dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageViewCustomerHomeItemProfilePicture"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/two_man_band_image" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textViewCustomerHomeItemProfileName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Sarith Surith and The News"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cardViewCustomerHomeItemProfilePicture"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/buttonCustomerHomeItemProfileViewDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/customer_home_item_view_details_button"
+                android:textColor="@color/vibrant_pinkish_red"
+                android:textSize="16sp"
+                app:cornerRadius="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/buttonCustomerHomeItemProfileBookNow"
+                app:layout_constraintStart_toEndOf="@+id/cardViewCustomerHomeItemProfilePicture"
+                app:layout_constraintTop_toBottomOf="@+id/textViewCustomerHomeItemProfileName"
+                app:strokeColor="@color/vibrant_pinkish_red"
+                app:strokeWidth="0dp" />
+
+            <Button
+                android:id="@+id/buttonCustomerHomeItemProfileBookNow"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/customer_home_item_book_now_button"
+                android:textColor="@color/dark_grayish_green"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageViewCustomerHomeItemProfileAddToFavourite"
+                app:layout_constraintStart_toEndOf="@+id/buttonCustomerHomeItemProfileViewDetails"
+                app:layout_constraintTop_toBottomOf="@+id/textViewCustomerHomeItemProfileName" />
+
+            <ImageView
+                android:id="@+id/imageViewCustomerHomeItemProfileAddToFavourite"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="24dp"
+                android:clickable="true"
+                android:tint="@color/vibrant_pinkish_red"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/buttonCustomerHomeItemProfileBookNow"
+                app:layout_constraintTop_toBottomOf="@+id/textViewCustomerHomeItemProfileName"
+                app:srcCompat="@drawable/ic_favourite_line" />
+
+            <TextView
+                android:id="@+id/textViewCustomerHomeItemPricePerHour"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="2dp"
+                android:text="TextView"
+                android:textAlignment="viewStart"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/buttonCustomerHomeItemProfileBookNow"
+                app:layout_constraintEnd_toEndOf="@+id/textViewCustomerHomeItemProfileName"
+                app:layout_constraintStart_toStartOf="@+id/textViewCustomerHomeItemProfileName"
+                app:layout_constraintTop_toBottomOf="@+id/textViewCustomerHomeItemProfileName" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

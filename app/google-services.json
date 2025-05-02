@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "658375105289",
+    "project_id": "tuneupme-b3b22",
+    "storage_bucket": "tuneupme-b3b22.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658375105289:android:f39c3cc309aada1d8b51d8",
+        "android_client_info": {
+          "package_name": "com.kshprimeindustries.tuneupme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB2_LJizzGHVZS3kCWa9KdfiCZY_O9PYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
